@@ -4,11 +4,12 @@ body {
     justify-content: center;
     margin: 3em 0 3em 0;
     background-image: url("./img/kolecka.svg");
+    background-size: contain;
 }
 
 .wd1024 {
-    background-color: indianred;
-    background-image: url(./img/pozadi.png);
+    /*! background-color: indianred; */
+    /*! background-image: url(./img/pozadi.png); */
     background-blend-mode: overlay;
     width: 100%;
     max-width: 1024px;
@@ -17,12 +18,14 @@ body {
 
 .header {
     padding: 0em 0em 1em 0em;
-    height: 20em;
+    height: 21em;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
     /*! align-items: ; */
     align-items: center;
+    background-color: indianred;
+    background-image: url(./img/pozadi.png);
 }
 
 .header>h1 {
