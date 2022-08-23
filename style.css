@@ -1,0 +1,137 @@
+body {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    margin: 3em 0 3em 0;
+    background-image: url("./img/kolecka.svg");
+    background-size: contain;
+}
+
+.wd1024 {
+    /*! background-color: indianred; */
+    /*! background-image: url(./img/pozadi.png); */
+    background-blend-mode: overlay;
+    width: 100%;
+    max-width: 1024px;
+    overflow: hidden;
+}
+
+.header {
+    padding: 0em 0em 1em 0em;
+    height: 21em;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /*! align-items: ; */
+    align-items: center;
+    background-color: indianred;
+    background-image: url(./img/pozadi.png);
+}
+
+.header>h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.header>nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
+.trans {
+    background-color: rgba(145, 145, 145, 0) !important;
+}
+
+.minino-text-svg {
+    width: 20em;
+}
+
+.logo-svg {
+    width: 9em;
+    /*! margin-top: 0em; */
+    margin-bottom: -9em;
+}
+
+.vlna {
+    height: 9em;
+}
+
+.header>nav>div {
+    background-color: #fff;
+    padding: 0.25em 1.25em 0.25em 1.25em;
+    border-radius: 1em;
+    /*! height:  81%; */
+    /*! height:  2em; */
+    height: fit-content;
+    margin-bottom: 3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 5em;
+    display: flex;
+    justify-content: center;
+}
+
+.spacer {
+    background-color: #fff;
+    height: 10em;
+}
+
+.onas {
+    display: flex;
+    flex-direction: row;
+}
+
+.onas>.text {
+    width: calc(50% - 1em);
+    padding: 1em;
+}
+
+.onas>.text>h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+.onas>.text>p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+.galerie {
+    background-color: #fff;
+    padding: 1em;
+}
+
+.galerie>h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+}
+
+.galerie>div {
+    background-color: #fff;
+    height: 25em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.galerie>div>div {
+    background-color: rgba(145, 145, 145, 0.384);
+    width: 2.5em;
+    height: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 2em;
+}
+
+.info {
+    height: 30em;
+}
